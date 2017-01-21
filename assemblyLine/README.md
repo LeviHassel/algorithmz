@@ -1,7 +1,7 @@
 # assemblyLine
 
 ## Overview
-assemblyLine is a function that will compute the shortest time possible to pass through n stages of assembling a product. The function will be supplied with two (2) vectors of length n and two vectors of length n-1. The vectors of length n will represent the time required to complete each stage of assembly on one of two assembly lines. The vectors of length n-1 will represent the time required to move a partially completed product from one assembly line to the other after a given stage. It can be assumed that the time required to move from one stage to the next on the same assembly line is 0. The function should return the minimum time required to go from stage 1, through stage n, in assembling a product.
+assemblyLine is a function that will compute the shortest time possible to pass through n stages of assembling a product. The function will be supplied with 2 vectors of length n and two vectors of length n-1. The vectors of length n will represent the time required to complete each stage of assembly on one of two assembly lines. The vectors of length n-1 will represent the time required to move a partially completed product from one assembly line to the other after a given stage. It can be assumed that the time required to move from one stage to the next on the same assembly line is 0. The function should return the minimum time required to go from stage 1, through stage n, in assembling a product.
 
 ## Requirements
 This can be run on any system with **g++** (included in GCC, the GNU Compiler Collection) or with any IDE that supports C++, though my directions on how to run it are for the former.
