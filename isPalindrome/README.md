@@ -9,8 +9,7 @@ This can be run on any system with **g++** (included in GCC, the GNU Compiler Co
 ## How to Run
 Download the code and navigate to the directory.
 
-Compile the program with the command (note that you can name `run.me` whatever you choose):
-`g++ -o run.me *.cpp`
+Compile the program with the command: `g++ -o run.me *.cpp` (note that you can name `run.me` whatever you choose)
 
 Run the executable with this command:
 `./run.me`
