@@ -32,9 +32,9 @@ void MyTree::operator=( const MyTree& other){
 
 MyTree::~MyTree(){
   delete left;
-  left = NULL;
+  left = 0;
   delete right;
-  right = NULL;
+  right = 0;
 }
 
 MyTree* MyTree::getParent(){
@@ -103,36 +103,36 @@ void MyTree::printPreorder(){
     if( getValue() ){
         cout << getValue();
     }
-    if( getLeft() && (left->getValue() != NULL) ){
+    if( getLeft() && (left->getValue() != 0) ){
         cout << ",";
         getLeft()->printPreorder();
     }
-    if( getRight() && (right->getValue() != NULL) ){
+    if( getRight() && (right->getValue() != 0) ){
         cout << ",";
         getRight()->printPreorder();
     }
 }
 
 void MyTree::printInorder(){
-    if( getLeft() && (left->getValue() != NULL) ){
+    if( getLeft() && (left->getValue() != 0) ){
         getLeft()->printInorder();
         cout << ",";
     }
     if( getValue() ){
         cout << getValue();
     }
-    if( getRight() && (right->getValue() != NULL) ){
+    if( getRight() && (right->getValue() != 0) ){
         cout << ",";
         getRight()->printInorder();
     }
 }
 
 void MyTree::printPostorder(){
-    if( getLeft() && (left->getValue() != NULL) ){
+    if( getLeft() && (left->getValue() != 0) ){
         getLeft()->printPostorder();
         cout << ",";
     }
-    if( getRight() && (right->getValue() != NULL) ){
+    if( getRight() && (right->getValue() != 0) ){
         getRight()->printPostorder();
         cout << ",";
     }
@@ -194,8 +194,8 @@ void MyTree::deleteNode( int key ){
 	// If the current node is the key, delete it 
     if(getValue() == key){
         if((!getLeft()) && (!getRight())){
-            setValue(NULL);
-            setParent(NULL);
+            setValue(0);
+            setParent(0);
         }
         else if(!getLeft()) {
             setValue(right->getValue());
@@ -245,9 +245,9 @@ void MyTree::deleteNode( int key ){
                 left->deleteNode(value);
             }
             else {
-                setValue(NULL);
-                setRight(NULL);
-                setLeft(NULL);
+                setValue(0);
+                setRight(0);
+                setLeft(0);
             }
         }
     }

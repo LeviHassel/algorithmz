@@ -50,8 +50,8 @@ double maximumST(vector<vector<double> > adjacencyMatrix) {
 			}
 		}
 
-		used.emplace(used.end(),i_a);
-		used.emplace(used.end(),j_a);
+		used.insert(used.end(),i_a);
+		used.insert(used.end(),j_a);
 
 	}
 

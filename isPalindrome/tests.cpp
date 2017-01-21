@@ -7,10 +7,10 @@ int main(){
   string str = "racecar";
   
   if( isPalindrome( str ) ){
-    cout << "A PALINDROME!" << endl;
+    cout << "IT'S A PALINDROME!" << endl;
   }
   else{
-    cout << "NOT A PALINDROME" << endl;
+    cout << "IT'S NOT A PALINDROME" << endl;
   }
 
   return 0;

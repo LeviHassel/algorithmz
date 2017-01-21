@@ -4,10 +4,18 @@
 maxProfit is a function that, given a vector of n execution times (in seconds), n deadlines (in seconds), and n profits (in dollars) for on-time completion, should return the greatest profit for executing the n jobs, given these constraints: once started, a job must run to completion. If a job is completed after its deadline, its profit is $0. You want to schedule the jobs in a way that maximizes the profit.
 
 ## Requirements
-These can be run on a Linux system with **g++**.
+This can be run on any system with **g++** (included in GCC, the GNU Compiler Collection) or with any IDE that supports C++, though my directions on how to run it are for the former.
 
 ## How to Run
-Compile the code with the command:
-`g++ -o /path/to/executable.out /path/to/source/files/*.cpp`
+Download the code and navigate to the directory.
 
-And then run the executable.
+Compile the program with the command (note that you can name `run.me` whatever you choose):
+`g++ -o run.me *.cpp`
+
+Run the executable with this command:
+`./run.me test1.times.input test1.deadlines.input test1.profits.input`
+
+If you wish to change the input, simply edit *test1.times.input*, *test1.deadlines.input* or *test1.profits.input*.
+
+## References
+https://gcc.gnu.org/

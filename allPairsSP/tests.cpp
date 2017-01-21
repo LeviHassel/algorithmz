@@ -26,7 +26,7 @@ int main(int argc , char* argv[]){
     }
   }
   
-  vector<vector<double>> sp = allPairsSP( matrix , iArray[0] );
+  vector<vector<double> > sp = allPairsSP( matrix , iArray[0] );
   
   for( int i = 0; i < dimensions; i++ ){
     for( int j = 0; j < dimensions - 1; j++ ){

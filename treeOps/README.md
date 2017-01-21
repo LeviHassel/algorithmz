@@ -4,11 +4,18 @@
 This project contains a definition for MyTree, a specific binary tree and many related functions, such as ones for inserting and deleting nodes and rotating the tree left and right. It assumes that only positive values will be placed into the MyTree.
 
 ## Requirements
-These can be run on a Linux system with **g++**.
+This can be run on any system with **g++** (included in GCC, the GNU Compiler Collection) or with any IDE that supports C++, though my directions on how to run it are for the former.
 
 ## How to Run
-Compile the code with the command:
-`g++ -o /path/to/executable.out /path/to/source/files/*.cpp`
+Download the code and navigate to the directory.
 
-And then run the executable.
-You may modify the test values in order to see different results.
+Compile the program with the command (note that you can name `run.me` whatever you choose):
+`g++ -o run.me *.cpp`
+
+Run the executable with this command:
+`./run.me`
+
+If you wish to change the input, simply edit *tests.cpp* using the functions defined in *treeOps.cpp*.
+
+## References
+https://gcc.gnu.org/

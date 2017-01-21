@@ -4,10 +4,18 @@
 isPalindrome is a function that takes one string as input and returns a Boolean value. isPalindrome returns true if the word is a palindrome (read the same forwards as backwards), and false otherwise.
 
 ## Requirements
-These can be run on a Linux system with **g++**.
+This can be run on any system with **g++** (included in GCC, the GNU Compiler Collection) or with any IDE that supports C++, though my directions on how to run it are for the former.
 
 ## How to Run
-Compile the code with the command:
-`g++ -o /path/to/executable.out /path/to/source/files/*.cpp`
+Download the code and navigate to the directory.
 
-And then run the executable.
+Compile the program with the command (note that you can name `run.me` whatever you choose):
+`g++ -o run.me *.cpp`
+
+Run the executable with this command:
+`./run.me`
+
+If you wish to change the input, open up *tests.cpp* and edit line 7.
+
+## References
+https://gcc.gnu.org/

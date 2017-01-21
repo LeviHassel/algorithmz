@@ -3,6 +3,6 @@
 #include <vector>
 using namespace std;
 
-double maximumST( vector<vector<double>> );
+double maximumST( vector<vector<double> > );
 
 #endif
