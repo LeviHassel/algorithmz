@@ -1,7 +1,7 @@
 # Algorithmz
 
 ## Overview
-This is a collection of simple algorithms I produced in my Data Structures and Algorithms class:
+This is a collection of simple algorithms that I produced in my Data Structures and Algorithms class:
 * [allPairsSP](https://github.com/LeviHassel/Algorithmz/tree/master/allPairsSP "allPairsSP")
 * [assemblyLine](https://github.com/LeviHassel/Algorithmz/tree/master/assemblyLine "assemblyLine")
 * [closestNumbers](https://github.com/LeviHassel/Algorithmz/tree/master/closestNumbers "closestNumbers")
